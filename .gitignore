@@ -1,0 +1,34 @@
+# Dependencies & Virtual Envs
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Build artifacts & caches
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+*.tsbuildinfo
+dist/
+**/dist/
+.pytest_tmp/
+
+# Databases and runtime data
+*.db
+*.db-*
+grantlens-backend/data/audits/
+
+# Logs and environment configs
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Backups
+.git_backup/
+**/.git_backup/
